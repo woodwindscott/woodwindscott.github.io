@@ -3,3 +3,7 @@ h1 {
     line-height: 38px;
     color: blue;
 }
+body {
+    width: 600px;
+    margin: 0 auto;
+}
