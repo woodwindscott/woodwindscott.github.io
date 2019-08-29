@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Scott Moore, Full Stack Web Developer | Contact Me</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/style/style.css">
@@ -18,10 +21,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
                     <a class="nav-item nav-link" href="about.html">About</a>
                     <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </nav>
@@ -29,31 +32,66 @@
 
         <div class="container">
             <!-- Title -->
-            <div class="row">
-                <div class="col-md-12 text-center my-title">
+            <!-- <div class="row">
+                <div class="col-md-6 text-center my-title">
                     <h1>Contact Me<h1>
                 </div>
-            </div>
+            </div> -->
             <!-- End Title -->
+
+
             <!-- Contact Form -->
-            <form>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1"><span class="form-text">Name</span></label>
-                  <input type="name" class="form-control" id="exampleFormControlInput1">
+            <div class="row mt-4">
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">Contact Me</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                <label for="exampleFormControlInput1"><span class="form-text">Name</span></label>
+                                <input type="name" class="form-control" id="exampleFormControlInput1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1"><span class="form-text">Email</span></label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                                </div>
+                                <div class="form-group">
+                                <label for="exampleFormControlTextarea1"><span class="form-text">Message</span></label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+                                <div class="submit-button text-center">
+                                    <button type="button" class="btn btn-primary btn-xlarge">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1"><span class="form-text">Email</span></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                <!-- End Contact Form --> 
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">Connect With Me</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">Mobile Phone: (919) 451-7717.</p>
+                            <p class="card-text">Email: woodwindscott@yahoo.com.</p>
+                            <a href="assets/downloads/Scott_Moore_Resume.pdf" target="_blank"><p class="card-text">Download My Resume</p></a>
+                            <hr>
+                            <a href="https://github.com/woodwindscott" target="_blank"><img src="assets/images/GitHub_Logo_White.png" width=175px></a><br>
+                            <a href="https://www.linkedin.com/in/scott-moore-55653769/" target="_blank"><img src="assets/images/LinkedIn_Logo.png" width=175px></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1"><span class="form-text">Message</span></label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                </div>
-                <div class="submit-button text-center">
-                    <button type="button" class="btn btn-primary btn-xlarge">Submit</button>
-                </div>
-            </form>
-            <!-- End Contact Form --> 
+            </div>
+
+            <div class="row mb-4">
+                <div class="more-spacing"></div>
+            </div>
+
         </div>
 
          <!-- Footer -->
