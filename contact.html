@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Scott Moore, Full Stack Web Developer | Home</title>
+        <title>Scott Moore, Full Stack Web Developer | Contact Me</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/style/style.css">
     </head>
@@ -9,59 +9,53 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        
+
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="index.html">Scott Moore {Full Stack Web Developer}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="about.html">About</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-              </div>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
         </nav>
         <!-- End Navigation Bar -->
 
         <div class="container">
             <!-- Title -->
-            <div class="jumbotron text-center">
-                <h1 class="display-4">Scott Moore</h1>
-                <h1 class="display-4">Full Stack Web Developer</h1>
-                <hr class="my-4">
-                <p class="subtitle">I turn dreams into realities...</p>
-                <p class="subtitle">What's your superpower?</p>
-            </div>
-
-
             <div class="row">
-                <div class="col-md-4 text-center">
-                    <div class="trapezoid">
-                        <a href="about.html"><p class="trap-text">About Me</p></a>
-                    </div> 
+                <div class="col-md-12 text-center my-title">
+                    <h1>Contact Me<h1>
                 </div>
-
-                <div class="col-md-4 text-center">
-                    <div class="trapezoid">
-                        <a href="portfolio.html"><p class="trap-text">Portfolio</p></a>
-                    </div> 
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <div class="trapezoid">
-                        <a href="contact.html"><p class="trap-text">Contact Me</p></a>
-                    </div> 
-                </div>
-
             </div>
-            <!-- End Picture & Bio -->
-
-           
+            <!-- End Title -->
+            <!-- Contact Form -->
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"><span class="form-text">Name</span></label>
+                  <input type="name" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1"><span class="form-text">Email</span></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"><span class="form-text">Message</span></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <div class="submit-button text-center">
+                    <button type="button" class="btn btn-primary btn-xlarge">Submit</button>
+                </div>
+            </form>
+            <!-- End Contact Form --> 
         </div>
+
          <!-- Footer -->
          <footer class="footer fixed-bottom page-footer font-small blue">
 
