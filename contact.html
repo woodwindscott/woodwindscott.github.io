@@ -48,21 +48,21 @@
                             <h5 class="card-title text-center">Contact Me</h5>
                         </div>
                         <div class="card-body">
-                            <form>
+                            <form action="mailto:webdevelopernc.gmail.com?subject=Contact via website" enctype="text/plain" method="POST">
                                 <div class="form-group">
-                                <label for="exampleFormControlInput1"><span class="form-text">Name</span></label>
-                                <input type="name" class="form-control" id="exampleFormControlInput1">
+                                    <label for="name"><span class="form-text">Name</span></label>
+                                    <input type="text" class="form-control" id="name" name="name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1"><span class="form-text">Email</span></label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                                    <label for="email"><span class="form-text">Email</span></label>
+                                    <input type="text" class="form-control" id="email" name="email">
                                 </div>
                                 <div class="form-group">
-                                <label for="exampleFormControlTextarea1"><span class="form-text">Message</span></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                    <label for="message"><span class="form-text">Message</span></label>
+                                    <textarea class="form-control" id="message" name="message" rows="5"></textarea>
                                 </div>
                                 <div class="submit-button text-center">
-                                    <button type="button" class="btn btn-primary btn-xlarge">Submit</button>
+                                    <button type="button submit" class="btn btn-primary btn-xlarge">Submit</button>
                                 </div>
                             </form>
                         </div>
